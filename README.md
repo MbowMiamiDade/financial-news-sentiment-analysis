@@ -2,7 +2,7 @@
 Exploratory analysis of financial news sentiment and next-day ETF market performance using Python, pandas, and logistic regression.
 
 ## Overview
-This project explores whether financial news sentiment can help predict next-day market direction and returns for SPY, DIA, and IWM.
+This project explores whether financial news sentiment can help predict next-day market direction and returns for SPY (S&P 500 ETF / large-cap U.S. stocks), DIA (Dow Jones Industrial Average ETF / 30 large blue-chip companies), and IWM (Russell 2000 ETF / small-cap U.S. stocks).
 
 ## Tools Used
 - Python
@@ -36,3 +36,17 @@ This project explores whether financial news sentiment can help predict next-day
 Within this limited sample, financial news sentiment showed only a weak relationship with next-day ETF direction and returns. The project demonstrates data cleaning, trading-day alignment, exploratory analysis, visualization, and basic machine learning.
 
 Initial project upload
+
+## Visualizations
+
+### SPY Up Probability by Sentiment
+<img width="504" height="395" alt="image" src="https://github.com/user-attachments/assets/f1f6dedd-03f2-406d-9766-c40f1023b39f" />
+
+### DIA Up Probability by Sentiment
+<img width="514" height="395" alt="image" src="https://github.com/user-attachments/assets/6aabc9fc-7aaa-4ae2-b203-c0d939220e06" />
+
+### IWM Up Probability by Sentiment
+<img width="519" height="395" alt="image" src="https://github.com/user-attachments/assets/e0da6cff-4bac-4da9-9d75-c380f4091e23" />
+
+### SPY Logistic Regression
+<img width="575" height="343" alt="image" src="https://github.com/user-attachments/assets/31b846b4-ca4a-4e17-9ff9-9408257d5c92" />
